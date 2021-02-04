@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: grid;                                                      
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr );
+    height: 100vh;   
+}
+
+a {
+    color: blue;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color:black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navigationWrapper {
+    width: 100%;
+    background-color: red;
+    padding: 1%;
+    grid-row: 1;
+    grid-column: 1/11;
+}
+
+h1 {
+    display:grid;
+    width: 100%;
+    grid-row: 2;
+    grid-column: 5/11;
+    text-decoration-style: double;
+    text-decoration: underline;
+}
+
+p {
+    grid-row: 3;
+    grid-column: 1/11;
+    color: black;
+}
+iframe {
+    grid-row: 5;
+    grid-column: 4/11;
+}
+footer {
+    color: white;
+    grid-row: 11/11;
+    grid-column: 1/11;
+}

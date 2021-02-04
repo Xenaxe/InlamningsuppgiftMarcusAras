@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: grid;                                                      
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr );
+    height: 100vh;   
+}
+
+a {
+    color:blue;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color:black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navigationWrapper {
+    width: 100%;
+    background-color: red;
+    padding: 1%;
+    grid-row: 1;
+    grid-column: 1/11;
+}
+
+h1 {
+    display:grid;
+    grid-row: 2/6;
+    grid-column: 5/8;
+    text-decoration-line: underline;
+}
+
+table {
+    grid-row: 4/11;
+    grid-column: 1/11;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: lavender;
+}
+
+footer {
+    color: white;
+    grid-row: 10/10;
+    grid-column: 1/11;
+}
